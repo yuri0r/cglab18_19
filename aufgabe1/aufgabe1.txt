@@ -1,0 +1,23 @@
+Robert 	Fuchs	56872	furo1013
+Gabriel Letai	51440	lega1013
+Mack 	Trinz	57099	trma1024
+
+
+asci basiert: (✓ bedeutet human redable x das es nicht human readble ist)
+ 	✓ vrml					
+	✓ x3d
+	✓ Generative Modelling Language gml
+	x .3ds (autodesk
+	✓ openScad
+	✓ JavaView format (.jvx)
+	✓ object file format off/noff (binary available)
+	x byu 
+	✓ wavefront obj .obj
+	✓ vtk (binary availble)
+	✓ ray tracing pov .pov 
+	x lightwave 3d .lwo
+	✓ Renderman interchange format (.rib)	
+	✓ Drawing Interchange Format .dxf
+	✓ Standard Triangulation Language .stl (binary availble)
+	✓ Polygon File Format .ply (binary availeble)
+	✓ COLLAborative Design Activity .dae (xml based)
