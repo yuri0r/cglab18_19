@@ -74,7 +74,6 @@ Gabriel Letai   51440   lega1013
                 </Transform>
             </Transform>
 
-
             <Transform translation='1 -4 0'>
                 <Group DEF="leg_shoe">
                     <Shape DEF="leg">
