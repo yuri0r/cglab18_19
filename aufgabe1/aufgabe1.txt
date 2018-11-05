@@ -7,7 +7,7 @@ asci basiert: (✓ bedeutet human redable x das es nicht human readble ist)
  	✓ vrml					
 	✓ x3d
 	✓ Generative Modelling Language gml
-	x .3ds (autodesk
+	x .3ds (autodesk)
 	✓ openScad
 	✓ JavaView format (.jvx)
 	✓ object file format off/noff (binary available)
