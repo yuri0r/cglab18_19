@@ -338,5 +338,14 @@ Gabriel Letai   51440   lega1013
                 <Shape USE="tower"/>
             </Transform>
         </Transform>
+
+        <Transform translation='52 27 68'>
+            <Shape>
+                <Sphere radius='15'/>
+                <Appearance>
+                    <Material diffuseColor='0.9 0.9 0'/>
+                </Appearance>
+            </Shape>
+</Transform>
     </Scene>
 </X3D>
