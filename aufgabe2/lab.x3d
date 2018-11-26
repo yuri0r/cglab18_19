@@ -171,7 +171,6 @@ Gabriel Letai   51440   lega1013
 
                 2 6 7 -1
                 2 7 3 -1
-
             '>
                 <Coordinate point='
                 80 0 4
@@ -183,9 +182,6 @@ Gabriel Letai   51440   lega1013
                 24 0 24
                 24 27 24
                 80 27 24
-
-
-
                 '/>
             </IndexedFaceSet>
         </Shape>
@@ -195,14 +191,27 @@ Gabriel Letai   51440   lega1013
                 <Material diffuseColor='1 0 1'/>
             </Appearance>
             <IndexedFaceSet coordIndex='
-               2 1 0 -1
-               2 3 1 -1
+               0 1 2 -1
+               0 2 3 -1
+
+               6 5 4 -1
+               7 6 4 -1
+
+               2 6 7 -1
+               2 7 3 -1
+
+
             '>
                 <Coordinate point='
-                100 0 24
-                100 0 113
-                100 27 24
-                100 27 113
+                4 0 24
+                4 0 113
+                4 27 113
+                4 27 24
+
+                24 0 24
+                24 0 113
+                24 27 113
+                24 27 24
                 '/>
             </IndexedFaceSet>
         </Shape>
@@ -217,7 +226,6 @@ Gabriel Letai   51440   lega1013
             <Transform rotation='0 1 0 3.14'>
                 <Shape USE="tower"/>
                 <Shape USE="shortSideWall"/>
-                <Shape USE="longSideWall"/>
             </Transform>
         </Transform>
         
