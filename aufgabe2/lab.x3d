@@ -30,7 +30,7 @@ Gabriel Letai   51440   lega1013
             </IndexedFaceSet>
         </Shape>
 
-        <Shape DEF="entrance">
+        <Shape DEF="backdoor">
             <Appearance>
                 <Material diffuseColor='1 0 1'/>
             </Appearance>
