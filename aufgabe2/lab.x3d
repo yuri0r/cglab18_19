@@ -24,7 +24,7 @@ Gabriel Letai   51440   lega1013
                 104 0 0
                 104 0 137
 		        '/>
-                <TextureCoordinate DEF='DefaultTextureCoordinate' point='0 0 1 0 1 1 0 1'/>
+
             </IndexedFaceSet>
             <Appearance>
                 <Material diffuseColor='1 1 1'/>
@@ -89,7 +89,6 @@ Gabriel Letai   51440   lega1013
             90 35 87
             90 35 48
             '/>
-                <TextureCoordinate USE='DefaultTextureCoordinate'/>
             </IndexedFaceSet>
         </Shape>
 
@@ -171,7 +170,7 @@ Gabriel Letai   51440   lega1013
         <Shape DEF="tower">
             <Appearance>
                 <Material diffuseColor='1 0 1'/>
-                <ImageTexture url="textures/beton.png"/>
+                <ImageTexture url="textures/beton.jpg"/>
             </Appearance>
             <IndexedFaceSet coordIndex='
             0 1 2 -1
@@ -262,7 +261,8 @@ Gabriel Letai   51440   lega1013
 
         <Shape DEF="shortSideWall">
             <Appearance>
-                <Material diffuseColor='1 0 1'/>
+                <Material diffuseColor='1 1 1'/>
+                <ImageTexture url="textures/beton.jpg"/>
             </Appearance>
             <IndexedFaceSet coordIndex='
                 0 1 2 -1
@@ -285,12 +285,18 @@ Gabriel Letai   51440   lega1013
                 24 27 30
                 80 27 30
                 '/>
+                <TextureCoordinate point="
+                0 0 1 0 1 1 0 1
+                0 1 1 1 1 0 0 0
+                "/>
+
             </IndexedFaceSet>
         </Shape>
 
         <Shape DEF="longSideWall">
             <Appearance>
-                <Material diffuseColor='1 0 1'/>
+                <Material diffuseColor='1 1 1'/>
+                <ImageTexture url="textures/beton.jpg"/>
             </Appearance>
             <IndexedFaceSet coordIndex='
                0 1 2 -1
@@ -315,6 +321,10 @@ Gabriel Letai   51440   lega1013
                 30 27 113
                 30 27 24
                 '/>
+                <TextureCoordinate point="
+                0 0 1 0 1 1 0 1
+                0 1 1 1 1 0 0 0
+                "/>
             </IndexedFaceSet>
         </Shape>
 
