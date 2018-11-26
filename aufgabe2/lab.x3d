@@ -195,6 +195,7 @@ Gabriel Letai   51440   lega1013
             <Transform rotation='0 1 0 3.14'>
                 <Shape USE="tower"/>
                 <Shape USE="shortSideWall"/>
+                <Shape USE="longSideWall"/>
             </Transform>
         </Transform>
         
