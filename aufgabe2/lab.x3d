@@ -387,13 +387,15 @@ Gabriel Letai   51440   lega1013
             </Transform>
         </Transform>
 
+        
         <Transform translation='52 27 68'>
             <Shape>
                 <Sphere radius='15'/>
                 <Appearance>
-                    <Material diffuseColor='0.9 0.9 0'/>
+                    <Material diffuseColor='0.9 0.9 0' />
+                    <ImageTexture url="textures/sphere2.png" />
                 </Appearance>
             </Shape>
-</Transform>
+        </Transform>
     </Scene>
 </X3D>
