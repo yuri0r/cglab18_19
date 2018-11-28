@@ -27,13 +27,15 @@ Gabriel Letai   51440   lega1013
 
             </IndexedFaceSet>
             <Appearance>
+                <Material diffuseColor='1 1 1'/>
                 <ImageTexture url="textures/flur.png"/>
             </Appearance>
         </Shape>
 
         <Shape DEF="plenum">
             <Appearance>
-                <ImageTexture url="textures/beton.jpg"/>
+                <Material diffuseColor='1 1 1'/>
+                <ImageTexture url="textures/dach.jpg"/>
             </Appearance>
 
             <IndexedFaceSet coordIndex='
@@ -67,6 +69,7 @@ Gabriel Letai   51440   lega1013
         <Group DEF="backdoor">
             <Shape>
                 <Appearance>
+                    <Material diffuseColor='1 1 1'/>
                     <ImageTexture url="textures/side.jpg"/>
                 </Appearance>
                 <IndexedFaceSet coordIndex='
@@ -99,6 +102,7 @@ Gabriel Letai   51440   lega1013
 
             <Shape>
                 <Appearance>
+                    <Material diffuseColor='1 1 1'/>
                     <ImageTexture url="textures/beton.jpg"/>
                 </Appearance>
                 <IndexedFaceSet coordIndex='
@@ -123,6 +127,7 @@ Gabriel Letai   51440   lega1013
 
         <Shape DEF="entrance">
             <Appearance>
+                <Material diffuseColor='1 0 1'/>
                  <ImageTexture url="textures/front.jpg"/>
             </Appearance>
 
@@ -199,7 +204,8 @@ Gabriel Letai   51440   lega1013
         <Group DEF="tower">
             <Shape>
                 <Appearance>
-                    <ImageTexture url="textures/beton.jpg"/>
+                    <Material diffuseColor='1 1 1'/>
+                    <ImageTexture url="textures/eckeDach.png"/>
                 </Appearance>
                 <IndexedFaceSet coordIndex='
             0 1 2 -1
@@ -231,6 +237,7 @@ Gabriel Letai   51440   lega1013
 
             <Shape>
                 <Appearance>
+                    <Material diffuseColor='1 1 1'/>
                     <ImageTexture url="textures/ecke.png"/>
                 </Appearance>
                 <IndexedFaceSet coordIndex='
@@ -292,6 +299,7 @@ Gabriel Letai   51440   lega1013
 
         <Shape DEF="shortSideWall">
             <Appearance>
+                <Material diffuseColor='1 1 1'/>
                 <ImageTexture url="textures/side.jpg"/>
             </Appearance>
             <IndexedFaceSet coordIndex='
@@ -325,6 +333,7 @@ Gabriel Letai   51440   lega1013
 
         <Shape DEF="longSideWall">
             <Appearance>
+                <Material diffuseColor='1 1 1'/>
                 <ImageTexture url="textures/sideLong.jpg"/>
             </Appearance>
             <IndexedFaceSet coordIndex='
@@ -378,24 +387,28 @@ Gabriel Letai   51440   lega1013
             </Transform>
         </Transform>
 
-        
         <Transform translation='52 27 68'>
             <Shape>
                 <Sphere radius='15'/>
                 <Appearance>
+                    <!--
+                    <Material opacity="0.7"/>
+                    <Material transparency="0.3"/>
+                    -->
+                    <Material diffuseColor='0.9 0.9 0' />
                     <ImageTexture url="textures/sphere2.png" />
                 </Appearance>
             </Shape>
         </Transform>
-	    
-	    <Transform translation='52 39.5 68'>
+
+        <Transform translation='52 39.5 68'>
             <Shape>
                 <Sphere radius='4'/>
                 <Appearance>
+                    <Material diffuseColor='0.9 0.9 0' />
                     <ImageTexture url="textures/sphere2.png" />
                 </Appearance>
             </Shape>
         </Transform>
-	    
     </Scene>
 </X3D>
