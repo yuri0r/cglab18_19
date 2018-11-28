@@ -484,7 +484,7 @@ Gabriel Letai   51440   lega1013
                 '/>
                     <TextureCoordinate point="
                 0 0 1 0 1 1 0 1
-                0 1 1 1 1 0 0 0
+                0 0 1 0 1 1 0 1
                 "/>
 
                 </IndexedFaceSet>
@@ -521,7 +521,6 @@ Gabriel Letai   51440   lega1013
             </Shape>
         </Group>
 
-
         <Group DEF="longSideWall">
             <Shape DEF="longSideWallSeiten">
                 <Appearance>
@@ -548,7 +547,7 @@ Gabriel Letai   51440   lega1013
                 '/>
                     <TextureCoordinate point="
                 0 0 1 0 1 1 0 1
-                0 1 1 1 1 0 0 0
+                0 0 1 0 1 1 0 1
                 "/>
                 </IndexedFaceSet>
             </Shape>
@@ -579,7 +578,7 @@ Gabriel Letai   51440   lega1013
                 '/>
                     <TextureCoordinate point="
                 0 0 1 0 1 1 0 1
-                0 1 1 1 1 0 0 0
+                0 0 1 0 1 1 0 1
                 "/>
                 </IndexedFaceSet>
             </Shape>
