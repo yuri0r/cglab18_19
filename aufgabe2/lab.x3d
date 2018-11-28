@@ -125,7 +125,9 @@ Gabriel Letai   51440   lega1013
 
         </Group>
 
-        <Shape DEF="entrance">
+
+
+            <Shape DEF="entrance">
             <Appearance>
                 <Material diffuseColor='1 0 1'/>
                  <ImageTexture url="textures/front.jpg"/>
@@ -200,6 +202,61 @@ Gabriel Letai   51440   lega1013
             '/>
             </IndexedFaceSet>
         </Shape>
+<!--
+            <Shape DEF='FrontDecke'>
+                <Appearance>
+                    <Material diffuseColor='1 1 1'/>
+                    <ImageTexture url="textures/frontDecke2.png"/>
+                </Appearance>
+                <IndexedFaceSet coordIndex='
+
+            4 11 8 -1
+            0 4 8 -1
+
+            12 13 17 -1
+            12 17 16 -1
+
+            18 14 15 -1
+            19 18 15 -1
+
+            13 14 18 -1
+            13 18 17 -1
+
+            19 15 12 -1
+            16 19 12 -1
+
+            16 17 18 -1
+            16 18 19 -1
+            '>
+                    <Coordinate point='
+
+                    0 27 48
+            0 27 68
+            0 27 88
+            0 35 68
+
+            4 27 48
+            4 27 68
+            4 27 88
+            4 35 68
+
+            0 0 48
+            0 0 88
+            4 0 88
+            4 0 48
+
+            4 27 48
+            4 27 88
+            20 27 88
+            20 27 48
+
+            4 37 48
+            4 37 88
+            20 37 88
+                '/>
+                </IndexedFaceSet>
+            </Shape> -->
+
 
         <Group DEF="tower">
             <Shape>
@@ -297,7 +354,10 @@ Gabriel Letai   51440   lega1013
             </Shape>
         </Group>
 
-        <Shape DEF="shortSideWall">
+
+
+        <Group DEF="shortSideWall">
+        <Shape DEF="shortSideWallSeiten">
             <Appearance>
                 <Material diffuseColor='1 1 1'/>
                 <ImageTexture url="textures/side.jpg"/>
@@ -308,6 +368,35 @@ Gabriel Letai   51440   lega1013
 
                 6 5 4 -1
                 7 6 4 -1
+
+
+            '>
+                <Coordinate point='
+                80 0 4
+                24 0 4
+                24 27 4
+                80 27 4
+
+                80 0 30
+                24 0 30
+                24 27 30
+                80 27 30
+                '/>
+                <TextureCoordinate point="
+                0 0 1 0 1 1 0 1
+                0 1 1 1 1 0 0 0
+                "/>
+
+            </IndexedFaceSet>
+        </Shape>
+
+        <Shape DEF="shortSideWallDach" >
+            <Appearance>
+                <Material diffuseColor='1 1 1'/>
+                <ImageTexture url="textures/dach.jpg"/>
+            </Appearance>
+            <IndexedFaceSet coordIndex='
+
 
                 2 6 7 -1
                 2 7 3 -1
@@ -330,8 +419,11 @@ Gabriel Letai   51440   lega1013
 
             </IndexedFaceSet>
         </Shape>
+         </Group>
 
-        <Shape DEF="longSideWall">
+
+         <Group DEF="longSideWall">
+        <Shape DEF="longSideWallSeiten">
             <Appearance>
                 <Material diffuseColor='1 1 1'/>
                 <ImageTexture url="textures/sideLong.jpg"/>
@@ -342,6 +434,35 @@ Gabriel Letai   51440   lega1013
 
                6 5 4 -1
                7 6 4 -1
+
+
+
+            '>
+                <Coordinate point='
+                4 0 24
+                4 0 113
+                4 27 113
+                4 27 24
+
+                30 0 24
+                30 0 113
+                30 27 113
+                30 27 24
+                '/>
+                <TextureCoordinate point="
+                0 0 1 0 1 1 0 1
+                0 1 1 1 1 0 0 0
+                "/>
+            </IndexedFaceSet>
+        </Shape>
+
+        <Shape DEF="longSideWallDach">
+            <Appearance>
+                <Material diffuseColor='1 1 1'/>
+                <ImageTexture url="textures/dach.jpg"/>
+            </Appearance>
+            <IndexedFaceSet coordIndex='
+
 
                2 6 7 -1
                2 7 3 -1
@@ -366,6 +487,8 @@ Gabriel Letai   51440   lega1013
             </IndexedFaceSet>
         </Shape>
 
+         </Group>
+
         <Transform translation='0 0 137' >
             <Transform rotation='0 1 0 1.57'>
                 <Shape USE="tower"/>
@@ -375,8 +498,8 @@ Gabriel Letai   51440   lega1013
         <Transform translation='104 0 137' >
             <Transform rotation='0 1 0 3.14'>
                 <Group USE="tower"/>
-                <Shape USE="shortSideWall"/>
-                <Shape USE="longSideWall"/>
+                <Group USE="shortSideWall"/>
+                <Group USE="longSideWall"/>
 
             </Transform>
         </Transform>
