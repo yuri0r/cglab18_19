@@ -44,8 +44,6 @@ Gabriel Letai   51440   lega1013
                 <IndexedFaceSet coordIndex='
             0 1 2 -1
             0 2 3 -1
-
-
             '>
                     <Coordinate point='
                 30 27 48
@@ -65,19 +63,19 @@ Gabriel Letai   51440   lega1013
                 </IndexedFaceSet>
             </Shape>
 
-            <Shape DEF="plenumSeite1">
+            <Shape DEF="plenumSeite">
                 <Appearance>
                     <Material diffuseColor='1 1 1'/>
                     <ImageTexture url="textures/side.jpg"/>
                 </Appearance>
 
                 <IndexedFaceSet coordIndex='
-
+            5 2 1 -1
+            5 6 2 -1
 
             0 3 4 -1
             7 4 3 -1
 
-
             '>
                     <Coordinate point='
                 30 27 48
@@ -91,43 +89,11 @@ Gabriel Letai   51440   lega1013
                 74.2 0 48
             '/>
                     <TextureCoordinate point="
-                0 0 0 1 1 1 1 0
-                0 1 0 0 1 0 1 1
+                0 1 1 1 0 1 1 1
+                0 0 1 0 0 0 1 0
                 "/>
                 </IndexedFaceSet>
             </Shape>
-
-            <Shape DEF="plenumSeite2">
-                <Appearance>
-                    <Material diffuseColor='1 1 1'/>
-                    <ImageTexture url="textures/side.jpg"/>
-                </Appearance>
-
-                <IndexedFaceSet coordIndex='
-
-            5 2 1 -1
-            5 6 2 -1
-
-
-            '>
-                    <Coordinate point='
-                30 27 48
-                30 27  88
-                74.2 27 88
-                74.2 27 48
-
-                30 0 48
-                30 0  88
-                74.2 0 88
-                74.2 0 48
-            '/>
-                    <TextureCoordinate point="
-                0 0 0 1 1 1 1 0
-                0 1 0 0 1 0 1 1
-                "/>
-                </IndexedFaceSet>
-            </Shape>
-
         </Group>
 
         <Group DEF="backdoor">
