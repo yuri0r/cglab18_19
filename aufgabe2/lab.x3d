@@ -217,7 +217,7 @@ Gabriel Letai   51440   lega1013
         <Group DEF="entrance">
             <Shape DEF="entranceSeiten">
             <Appearance>
-                <Material diffuseColor='1 0 1'/>
+                
                  <ImageTexture url="textures/front.jpg"/>
             </Appearance>
 
@@ -293,7 +293,7 @@ Gabriel Letai   51440   lega1013
 
             <Shape DEF='entranceFrontDecke'>
                 <Appearance>
-                    <Material diffuseColor='1 1 1'/>
+                   
                     <ImageTexture url="textures/frontDecke2.png"/>
                 </Appearance>
                 <IndexedFaceSet coordIndex='
@@ -335,7 +335,7 @@ Gabriel Letai   51440   lega1013
 
             <Shape DEF='entranceFrontBack'>
                 <Appearance>
-                    <Material diffuseColor='1 1 1'/>
+                 
                     <ImageTexture url="textures/back.jpeg"/>
                 </Appearance>
                 <IndexedFaceSet coordIndex='
